@@ -1,0 +1,102 @@
+/* ======= base style ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif !important;
+}
+.font {
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+}
+.color-body {
+  height: 100vh;
+  background-color: #fafafa;
+}
+.img-avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.rectangle {
+  height: 550px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
+}
+.nav-font {
+  color: #b45b35;
+}
+.nav-font:hover {
+  color: #b45b35;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: #b45b35;
+  background-color: #fff;
+  padding: 8px;
+}
+.btn:hover {
+  color: #fff !important;
+  background-color: #b45b35;
+}
+.title {
+  color: #224f61;
+  font-family: "Almarai";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.underline {
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid 2px #b45b35;
+}
+.btn-menu {
+  color: #000;
+  border: 1px solid #b45b35;
+  outline: none;
+  font-family: "Almarai";
+  padding: 5px 8px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.btn-menu:hover {
+  background-color: #b45b35;
+  color: #fff;
+}
+.item-title {
+  color: #555555;
+  font-family: "Almarai";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: bold;
+}
+.item-price {
+  color: #b45b35;
+  font-family: "Almarai";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: bold;
+}
+.item-description {
+  color: #8c8c8c;
+  font-family: "Almarai";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.bg-card{
+  background-color: #f8f8f8;
+}
+.img-card{
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
